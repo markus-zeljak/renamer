@@ -32,7 +32,10 @@ Match is literal and case-sensitive. It replaces every occurrence. Leave Match e
 | `{up}` | Ascending number in selection order |
 | `{down}` | Descending number in selection order |
 
-**Start ascending from** sets the first ascending number. For example, `Shape {up}` starting at 1 produces `Shape 1`, `Shape 2`, `Shape 3`.
+**Start ascending from** sets the first ascending number.
+
+> [!TIP]
+> Use `Shape {up}` starting at 1 to get `Shape 1`, `Shape 2`, `Shape 3`.
 
 The **⋯** menu can clean up trailing numbers and version suffixes, or remove trailing bracket tags such as `[Duplicator]`. These commands use selected layers; with no selection, they offer cleanup of the active composition.
 
